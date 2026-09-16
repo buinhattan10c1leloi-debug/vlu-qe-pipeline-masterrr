@@ -1,0 +1,11 @@
+{
+  "name": "auth-jest-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test:smoke": "jest auth.smoke.test.js",
+    "test:regression": "jest auth.regression.test.js"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}
